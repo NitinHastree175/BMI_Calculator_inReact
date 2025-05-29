@@ -24,7 +24,7 @@ function App() {
       // Logic for message
  
       if (bmi < 25) {
-        setMessage('You are underweight')
+        setMessage('You are underweight right')
       } else if (bmi >= 25 && bmi < 30) {
         setMessage('You are a healthy weight')
       } else {
